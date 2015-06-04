@@ -1,0 +1,39 @@
+{
+  "name": "AngularJS SCORM Wrapper",
+  "description": "SCORM API Wrapper for SCORM 1.2 and 2004",
+  "version": "1.0",
+  "filename": "angular-scorm-wrapper.js",
+  "main": "",
+  "homepage": "",
+  "author": "Andy Dennis",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andydennis/angularjs-scorm-wrapper"
+  },
+  "engines": {
+    "node": ">= 0.9"
+  },
+  "keywords": [
+    "angular",
+    "eLearning",
+    "SCORM",
+    "LMS",
+    "SCORM 1.2",
+    "SCORM 2004",
+    "API Wrapper"
+  ],
+  "maintainers": [
+    {
+      "name": "Andy Dennis",
+      "website": "https://github.com/andydennis/angularjs-scorm-wrapper"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+
+  },
+  "scripts": {
+
+  },
+  "license": "MIT"
+}
