@@ -1,0 +1,13 @@
+{
+  "name": "AngularJS SCORM Wrapper",
+  "version": "1.0",
+  "main": "",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
