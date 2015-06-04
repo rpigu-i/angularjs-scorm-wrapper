@@ -190,7 +190,7 @@ Terminate("")
 
 
   
-  ```this.doLMSGetValue```
+  ``` this.doLMSGetValue ```
   
 Used for returning a value from the CMS for example cmi.score.raw
 
@@ -214,7 +214,7 @@ GetValue(parameter)
 
 
   
-  ```this.doLMSSetValue```
+  ``` this.doLMSSetValue ```
   
 Used for setting a value in the CMS for example cmi.score.raw
 
@@ -241,7 +241,7 @@ SetValue(parameter, value)
   
 
   
-  ```this.doLMSCommit```
+  ``` this.doLMSCommit ```
 
 Used to persist data in the LMS. Call once the value has been set using doLMSSet(parameter, value).
 
@@ -381,7 +381,7 @@ API functions:
 
 None
  
-  ```this.searchForAPI```
+  ``` this.searchForAPI ```
 
 This function does a lookup for the SCORM API starting with 1.2 and then 2004.
 
