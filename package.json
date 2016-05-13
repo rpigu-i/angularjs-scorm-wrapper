@@ -1,7 +1,7 @@
 {
   "name": "angularjs-scorm-wrapper",
   "description": "SCORM API Wrapper for SCORM 1.2 and 2004",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "filename": "angular-scorm-wrapper.js",
   "main": "",
   "homepage": "",
