@@ -324,7 +324,7 @@ describe('scormWrapper test', function(){
 
             expect( scormWrapper.setAPIVersion("1.2") ).toEqual("1.2");
 
-        }))
+        }));
 
     });
     
@@ -334,7 +334,7 @@ describe('scormWrapper test', function(){
 
             expect( scormWrapper.setAPIVersion("2004") ).toEqual("2004");
 
-        }))
+        }));
 
     });
     
@@ -344,7 +344,7 @@ describe('scormWrapper test', function(){
 
             expect( scormWrapper.getAPIVersion() ).toEqual("Auto");
 
-        }))
+        }));
 
     }); 
     
@@ -356,7 +356,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.setAPIVersion("1.2") ).toEqual("1.2");
             expect( scormWrapper.getAPIVersion() ).toEqual("1.2");
 
-        }))
+        }));
 
     });
     
@@ -367,7 +367,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.setAPIVersion("2004") ).toEqual("2004");
             expect( scormWrapper.getAPIVersion() ).toEqual("2004");
 
-        }))
+        }));
 
     });    
        
@@ -378,7 +378,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.setAPIVersion("Auto") ).toEqual("Auto");
             expect( scormWrapper.getAPIVersion() ).toEqual("Auto");
 
-        }))
+        }));
 
     });
     
@@ -415,7 +415,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.getAPIVersion() ).toEqual("Auto");
             
 
-        }))
+        }));
         
 
     });    
@@ -430,7 +430,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.setAPIVersion(2004) ).toEqual("2004");
             expect( scormWrapper.getAPIVersion() ).toEqual("2004");
 
-        }))
+        }));
 
     });
 
@@ -446,7 +446,7 @@ describe('scormWrapper test', function(){
 
             expect( scormWrapper.isAvailable() ).toEqual(true); 
 
-        }))
+        }));
 
     }); 
     
@@ -462,7 +462,7 @@ describe('scormWrapper test', function(){
             window.parent.API_1484_11 = undefined;
             expect( scormWrapper.doLMSInitialize() ).toEqual(false); 
 
-        }))
+        }));
 
     });
    
@@ -474,7 +474,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSInitialize() ).toEqual(true); 
             expect( scormWrapper.getAPIVersion() ).toEqual("1.2");
 
-        }))
+        }));
         
     });
     
@@ -486,7 +486,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.setAPIVersion("1.2") ).toEqual("1.2");
             expect( scormWrapper.doLMSInitialize() ).toEqual(true); 
 
-        }))
+        }));
         
     });
     
@@ -499,7 +499,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.setAPIVersion("2004") ).toEqual("2004");
             expect( scormWrapper.doLMSInitialize() ).toEqual(true); 
 
-        }))
+        }));
         
     });     
 
@@ -517,7 +517,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSInitialize() ).toEqual(true);
             expect( scormWrapper.doLMSFinish() ).toEqual(true); 
 
-        }))
+        }));
         
     });
        
@@ -530,7 +530,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSInitialize() ).toEqual(true);
             expect( scormWrapper.doLMSFinish() ).toEqual(true);  
 
-        }))
+        }));
         
     });
     
@@ -544,7 +544,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSInitialize() ).toEqual(true);
             expect( scormWrapper.doLMSFinish() ).toEqual(true); 
 
-        }))
+        }));
         
     });    
 
@@ -563,7 +563,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSGetValue("cmi.suspend_data") ).toEqual("Test Data"); 
             expect( scormWrapper.doLMSFinish() ).toEqual(true);
 
-        }))
+        }));
         
     });
        
@@ -577,7 +577,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSGetValue("cmi.suspend_data") ).toEqual("Test Data"); 
             expect( scormWrapper.doLMSFinish() ).toEqual(true); 
 
-        }))
+        }));
         
     });
  
@@ -591,7 +591,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSGetValue() ).toEqual("");  
             expect( scormWrapper.doLMSFinish() ).toEqual(true); 
 
-        }))
+        }));
         
     }); 
     
@@ -605,7 +605,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSGetValue("cmi.suspend_data") ).toEqual("Test Data"); 
             expect( scormWrapper.doLMSFinish() ).toEqual(true); 
 
-        }))
+        }));
         
     });    
 
@@ -619,7 +619,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSGetValue() ).toEqual(""); 
             expect( scormWrapper.doLMSFinish() ).toEqual(true); 
 
-        }))
+        }));
         
     });
 
@@ -638,7 +638,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSSetValue("cmi.score.raw",10) ).toEqual(true); 
             expect( scormWrapper.doLMSFinish() ).toEqual(true);
 
-        }))
+        }));
         
     });
        
@@ -652,7 +652,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSSetValue("cmi.score.raw",10) ).toEqual(true); 
             expect( scormWrapper.doLMSFinish() ).toEqual(true); 
 
-        }))
+        }));
 
     });
     
@@ -665,7 +665,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSSetValue("",10) ).toEqual(false); 
             expect( scormWrapper.doLMSFinish() ).toEqual(true); 
 
-        }))
+        }));
 
     });    
     
@@ -679,7 +679,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSSetValue("cmi.score.raw",10) ).toEqual(true);
             expect( scormWrapper.doLMSFinish() ).toEqual(true); 
 
-        }))
+        }));
 
     });
     
@@ -692,7 +692,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSSetValue("",10) ).toEqual(false);
             expect( scormWrapper.doLMSFinish() ).toEqual(true); 
 
-        }))
+        }));
 
     });     
 
@@ -712,7 +712,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSCommit() ).toEqual(true); 
             expect( scormWrapper.doLMSFinish() ).toEqual(true);
 
-        }))
+        }));
         
     });
        
@@ -727,7 +727,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSCommit() ).toEqual(true); 
             expect( scormWrapper.doLMSFinish() ).toEqual(true); 
 
-        }))
+        }));
 
     });
         
@@ -742,7 +742,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSSetValue("cmi.score.raw",10) ).toEqual(true);
             expect( scormWrapper.doLMSFinish() ).toEqual(true); 
 
-        }))
+        }));
 
     });
 
@@ -762,7 +762,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSGetLastError() ).toEqual(0);
             expect( scormWrapper.doLMSFinish() ).toEqual(true);
 
-        }))
+        }));
         
     });
        
@@ -776,7 +776,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSGetLastError() ).toEqual(0); 
             expect( scormWrapper.doLMSFinish() ).toEqual(true); 
 
-        }))
+        }));
 
     });
         
@@ -791,7 +791,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSGetLastError() ).toEqual(0);
             expect( scormWrapper.doLMSFinish() ).toEqual(true); 
 
-        }))
+        }));
 
     });
 
@@ -810,7 +810,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSGetErrorString(0) ).toEqual("Test: No error");
             expect( scormWrapper.doLMSFinish() ).toEqual(true);
 
-        }))
+        }));
         
     });
        
@@ -824,7 +824,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSGetErrorString(0) ).toEqual("Test: No error");
             expect( scormWrapper.doLMSFinish() ).toEqual(true); 
 
-        }))
+        }));
 
     });
         
@@ -839,7 +839,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSGetErrorString(0) ).toEqual("Test: No error");
             expect( scormWrapper.doLMSFinish() ).toEqual(true); 
 
-        }))
+        }));
 
     });   
 
@@ -858,7 +858,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSGetDiagnostic(0) ).toEqual("Test: Diagnostic no error");
             expect( scormWrapper.doLMSFinish() ).toEqual(true);
 
-        }))
+        }));
         
     });
        
@@ -872,7 +872,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSGetDiagnostic(0) ).toEqual("Test: Diagnostic no error");
             expect( scormWrapper.doLMSFinish() ).toEqual(true); 
 
-        }))
+        }));
 
     });
         
@@ -887,7 +887,7 @@ describe('scormWrapper test', function(){
             expect( scormWrapper.doLMSGetDiagnostic(0) ).toEqual("Test: Diagnostic no error");
             expect( scormWrapper.doLMSFinish() ).toEqual(true); 
 
-        }))
+        }));
 
     }); 
          
