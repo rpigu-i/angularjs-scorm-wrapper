@@ -185,13 +185,12 @@ scormwrapper.service('scormWrapper', function () {
            return function() {
                return API[funcname2004].apply(API, arguments);
            };
-           break;
 
         case "1.2":
            return function() {
                return API[funcname12].apply(API, arguments);
            };
-           break;
         }     
     };      
 });
+
