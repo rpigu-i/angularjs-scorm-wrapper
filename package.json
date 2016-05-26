@@ -32,7 +32,7 @@
   "devDependencies": {
     "grunt": "",
     "grunt-contrib-uglify": "",
-    "grunt-contrib-jshint": "",
+    "grunt-eslint": "",
     "grunt-karma": "",
     "grunt-contrib-watch": "",
     "grunt-contrib-concat": ""
