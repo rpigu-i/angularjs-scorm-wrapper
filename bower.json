@@ -1,7 +1,7 @@
 {
-  "name": "AngularJS SCORM Wrapper",
-  "version": "1.2.1",
-  "main": "",
+  "name": "angularjs-scorm-wrapper",
+  "version": "1.2.2",
+  "main": "dist/angularjs-scorm-wrapper.min.js",
   "ignore": [
     ".jshintrc",
     "**/*.txt"
