@@ -1,6 +1,14 @@
 Scorm API Wrapper Programming Guide
 ***********************************
 
+Support for AngularJS (https://angularjs.org/) officially ended in Jan 2022
+
+https://blog.angular.io/discontinued-long-term-support-for-angularjs-cc066b82e65a
+
+Engineering teams are encouraged to upgrade to Angular: https://angular.io/
+
+As a result this repository has officially been Archived as of November 2022.
+
 
 Overview
 ========
